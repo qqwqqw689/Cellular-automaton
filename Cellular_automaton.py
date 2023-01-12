@@ -36,7 +36,7 @@ def rule(i,j,m,n):
 		return False 
 
 # Start Main Program
-if __name__=='__main__':
+if __name__=='__main__':                  #explanation  https://realpython.com/if-name-main-python/
 	plt.ion #Turn on interactive mode
 
 	#Specify area size
