@@ -37,6 +37,10 @@ def rule(i,j,m,n):
 
 # Start Main Program
 if __name__=='__main__':                  #explanation  https://realpython.com/if-name-main-python/
+	
+	#Python sets the global __name__ of a module equal to "__main__" 
+	#if the Python interpreter runs your code in the top-level code environment
+	
 	plt.ion #Turn on interactive mode
 
 	#Specify area size
