@@ -40,6 +40,7 @@ if __name__=='__main__':                  #explanation  https://realpython.com/i
 	
 	#Python sets the global __name__ of a module equal to "__main__" 
 	#if the Python interpreter runs your code in the top-level code environment
+	#In an imported module, the value of __name__ is the module’s name as a string.
 	
 	plt.ion #Turn on interactive mode
 
